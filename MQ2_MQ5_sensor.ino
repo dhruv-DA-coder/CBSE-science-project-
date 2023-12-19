@@ -12,7 +12,7 @@ const int mq2Threshold = 400;  // Adjust this based on sensor calibration
 const int mq5Threshold = 300;  // Adjust this based on sensor calibration
 
 void setup() {
-  lcd.begin(16, 2);  // Initialize the LCD
+  lcd.begin();  // Initialize the LCD
   lcd.backlight();
 
   pinMode(buzzerPin, OUTPUT);  // Set buzzer pin as output
